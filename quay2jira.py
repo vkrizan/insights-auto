@@ -17,7 +17,7 @@ from insights_auto import QuayApi, JiraVulnerabilityReporter, JIRA_SERVER, QUAY_
 
 
 QUAY_REPOSITORY = 'cloudservices'
-QUAY_IMAGE_NAME = 'compliance-backend'
+
 
 def get_quay_auth(base_url=QUAY_API_BASE_URL):
     session = os.environ.get('QUAY_IO_SESSION')
